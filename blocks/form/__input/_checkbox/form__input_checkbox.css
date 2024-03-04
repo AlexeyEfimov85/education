@@ -1,0 +1,26 @@
+.form__input_checkbox {
+    width: 14px;
+    height: 14px;
+    position: relative;
+}
+
+.form__input_checkbox::before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: #FFFFFF;
+    border: 1px solid #31912D;
+    box-sizing: border-box;
+}
+
+.form__input_checkbox:checked::after {
+    content: '';
+    display: block;
+    width: 11px;
+    height: 11px;
+    background-image: url('../../../../images/icon_checkbox.svg');
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}

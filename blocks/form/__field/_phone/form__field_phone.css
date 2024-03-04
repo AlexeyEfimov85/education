@@ -1,0 +1,16 @@
+.form__field_phone {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1190px) {
+    .form__field_phone {
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form__field_phone {
+        margin-bottom: 4px;
+    }
+}

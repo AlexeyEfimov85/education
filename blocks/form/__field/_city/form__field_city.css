@@ -1,0 +1,4 @@
+.form__field_city {
+    display: flex;
+    flex-direction: column;
+}

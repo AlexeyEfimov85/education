@@ -1,0 +1,17 @@
+.lead__button {
+    display: none;
+}
+
+@media screen and (max-width: 1190px) {
+    .lead__button{
+        height: 48px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__button{
+        height: 41px;
+        
+    }
+}

@@ -1,0 +1,22 @@
+.form__label_file {
+    display: flex;
+    margin-right: 6px;
+    position: relative;
+    margin-left: 15px;
+}
+
+.form__label_file::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url('../../../../images/form_icon.svg');
+    position: absolute;
+    left: -20px;
+    top: 5px;
+}
+
+.form__label_file:hover .form__text_green {
+
+    color: #31912D;
+}

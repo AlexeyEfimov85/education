@@ -1,0 +1,13 @@
+.breadcrumbs__link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #353F47;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .breadcrumbs__link {
+        color: #989898;
+    }
+}

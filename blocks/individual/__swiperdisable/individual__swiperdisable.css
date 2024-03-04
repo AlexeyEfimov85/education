@@ -1,0 +1,15 @@
+.individual__swiperdisable {
+    max-width: 100vw 
+}
+
+@media screen and (min-width: 1190px) {
+    .individual__swiperdisable {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .individual__swiperdisable {
+        display: none;
+    }
+}

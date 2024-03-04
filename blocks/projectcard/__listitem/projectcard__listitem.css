@@ -1,0 +1,33 @@
+.projectcard__listitem {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #353f47;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.projectcard__listitem::before {
+    content: '';
+    border: 7px solid transparent; border-left: 12px solid #31912D;
+    box-sizing: border-box;
+    position: absolute;
+    left: -20px;
+    top: 5px;
+}
+
+@media screen and (max-width: 1190px) {
+    .projectcard__listitem {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projectcard__listitem {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 400;
+    }
+}

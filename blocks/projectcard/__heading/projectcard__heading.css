@@ -1,0 +1,37 @@
+.projectcard__heading {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: -0.02em;  
+    display: flex;
+    flex-direction: column;
+    background-color: #1D8119;
+    margin: 0;
+    padding: 12px 24px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #FFFFFF;
+    height: 90px;
+    box-sizing: border-box;
+    
+}
+
+@media screen and (max-width: 1190px) {
+    .projectcard__heading {
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: -0.02em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projectcard__heading {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        height: 64px;
+        padding: 24px 12px;
+        flex-direction: row;
+        gap: 5px;
+    }
+}

@@ -1,0 +1,17 @@
+.projectcard__price {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #000000;
+    padding-top: 8px;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .projectcard__price {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 31px;
+        color: #000000;
+    }
+}

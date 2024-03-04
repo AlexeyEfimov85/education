@@ -1,0 +1,22 @@
+.arrowheading__text {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #353f47;
+    margin: 0 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1190px) {
+    .arrowheading__text {
+        font-size: 24px;
+        line-height: 31px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .arrowheading__text {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}

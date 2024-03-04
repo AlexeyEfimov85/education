@@ -1,0 +1,32 @@
+.breadcrumbs__item {
+    display: flex;
+    min-width: max-content;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15.6px;
+    color: #000013;
+
+}
+
+.breadcrumbs__item:not(:last-child) {
+    position: relative;
+    padding-right: 16px;
+}
+
+.breadcrumbs__item:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 6px;
+    height: 10px;
+    background-image: url(../../../images/breadcrumb-arrow.svg);
+    background-size: cover;
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 768px) {
+    .breadcrumbs__item {
+        color: #000013;
+    }
+}

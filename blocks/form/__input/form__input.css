@@ -1,0 +1,16 @@
+.form__input {
+    border: 1px solid #d0d7dd;
+    border-radius: 50px;
+    padding: 11px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    background-color: #fff;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+}
+
+.form__input:hover {
+    border-color: #000;
+}

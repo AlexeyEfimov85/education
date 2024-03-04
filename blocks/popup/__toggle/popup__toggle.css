@@ -1,0 +1,30 @@
+.popup__toggle {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    background-color:rgba(255, 255, 255, 0);
+    font-size: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-image: url("../../../images/Close_Icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.popup__toggle:hover {
+    background-image: url("../../../images/Close_Icon_hover.svg");
+}
+
+@media screen and (max-width: 768px) {
+    .popup__toggle {
+        width: 20px;
+        height: 20px;
+        top: 28px;
+        right: 12px;
+    }
+}

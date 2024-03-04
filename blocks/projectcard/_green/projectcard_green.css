@@ -1,0 +1,9 @@
+.projectcard_green {
+    background-color: #e2f2e2;
+}
+
+@media screen and (max-width: 1190px) {
+    .projectcard_green {
+     /*    left: 381px; */
+    }
+}

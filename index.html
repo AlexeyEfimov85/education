@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Обучение</title>
+    <link rel="stylesheet" href="./pages/design.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <style>
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+      }
+    </style>
+  </head>
+
+  <body class="root">
+    <div class="breadcrumbs-mobile">
+      <div class="container">
+        <ol
+          class="breadcrumbs__list"
+          itemscope=""
+          itemtype="http://schema.org/BreadcrumbList"
+        >
+          <li
+            class="breadcrumbs__item"
+            id="bx_breadcrumb_0"
+            itemprop="itemListElement"
+            itemscope=""
+            itemtype="http://schema.org/ListItem"
+          >
+            <a
+              href="/"
+              title="Главная"
+              itemprop="item"
+              class="breadcrumbs__link"
+              >Главная</a
+            >
+            <meta itemprop="position" content="1" />
+          </li>
+          <li
+            class="breadcrumbs__item"
+            id="bx_breadcrumb_1"
+            itemprop="itemListElement"
+            itemscope=""
+            itemtype="http://schema.org/ListItem"
+          >
+            <a
+              href="/services/"
+              title="Каталог домов"
+              itemprop="item"
+              class="breadcrumbs__link"
+              >Услуги</a
+            >
+            <meta itemprop="position" content="2" />
+          </li>
+          <li class="breadcrumbs__item"><span>Обучение</span></li>
+        </ol>
+      </div>
+    </div>
+    <main class="main">
+      <section class="lead">
+        <div class="lead__lens"></div>
+        <div class="container">
+          <div class="breadcrumbs">
+            <div class="breadcrumbs__container">
+              <ol
+                class="breadcrumbs__list"
+                itemscope=""
+                itemtype="http://schema.org/BreadcrumbList"
+              >
+                <li
+                  class="breadcrumbs__item"
+                  id="bx_breadcrumb_0"
+                  itemprop="itemListElement"
+                  itemscope=""
+                  itemtype="http://schema.org/ListItem"
+                >
+                  <a
+                    href="/"
+                    title="Главная"
+                    itemprop="item"
+                    class="breadcrumbs__link"
+                    >Главная</a
+                  >
+                  <meta itemprop="position" content="1" />
+                </li>
+                <li
+                  class="breadcrumbs__item"
+                  id="bx_breadcrumb_1"
+                  itemprop="itemListElement"
+                  itemscope=""
+                  itemtype="http://schema.org/ListItem"
+                >
+                  <a
+                    href="/services/"
+                    title="Каталог домов"
+                    itemprop="item"
+                    class="breadcrumbs__link"
+                    >Услуги</a
+                  >
+                  <meta itemprop="position" content="2" />
+                </li>
+                <li class="breadcrumbs__item"><span>Обучение</span></li>
+              </ol>
+            </div>
+          </div>
+          <h1 class="lead__title">Бесплатный вебинар Александра Касумова</h1>
+          <p class="lead__subheading">
+            «Как построить каркасный дом и&nbsp;сэкономить от 1 000 000 ₽»
+          </p>
+          <form class="form form_desktop" novalidate>
+            <div class="form__field form__field_name">
+              <label for="name" class="form__label">Имя</label
+              ><input
+                type="text"
+                id="name"
+                placeholder="Андрей"
+                class="form__input"
+              />
+            </div>
+            <div class="form__field form__field_phone">
+              <label for="tel" class="form__label">Телефон</label
+              ><input
+                type="tel"
+                id="tel"
+                placeholder="+7(000) 000-00-00"
+                class="form__input"
+              />
+            </div>
+            <div class="form__field form__field_city">
+              <label for="city" class="form__label">Уточните ваш регион</label
+              ><input
+                type="text"
+                id="city"
+                placeholder="Санкт-Петербург"
+                class="form__input"
+              />
+            </div>
+            <div class="form__field form__field_checkbox">
+              <label for="checkbox" class="form__label form__label_checkbox"
+                ><span class="form__text">Вы даёте согласие на</span>
+                <a href="#" class="form__link"
+                  >обработку персональных данных</a
+                > </label
+              ><input
+                type="checkbox"
+                id="checkbox"
+                class="form__input form__input_checkbox"
+                checked
+              />
+            </div>
+            <div class="form__field">
+              <button type="submit" class="form__button">
+                Отправить заявку
+              </button>
+            </div>
+          </form>
+          <button type="button" class="button lead__button">
+            Зарегистрироваться
+          </button>
+        </div>
+      </section>
+      <section class="individual">
+        <div class="container">
+          <div class="arrowheading">
+            <img
+              src="./images/arrow-right.svg"
+              alt="стрелка"
+              class="promo__arrow"
+            />
+            <p class="arrowheading__text individual__heading">
+              <span>Обучение</span>
+            </p>
+
+            <img
+              src="./images/arrow-left.svg"
+              alt="стрелка"
+              class="promo__arrow"
+            />
+          </div>
+          <span class="individual__subheading"
+            >Предлагаем три варианта обучающего курса:</span
+          >
+
+          <div class="individual__wrapper">
+            <div class="projectcard projectcard_green">
+              <p class="projectcard__heading">
+                Строю дом с Александром Касумовым
+              </p>
+              <div class="projectcard__wrapper">
+                <p class="projectcard__subheading">
+                  Пошаговая инструкция по&nbsp;строительству&nbsp;дома
+                  с&nbsp;поддержкой&nbsp;Александра&nbsp;Касумова
+                </p>
+                <ul class="projectcard__list">
+                  <li class="projectcard__listitem">
+                    15 модулей по строительству
+                  </li>
+                  <li class="projectcard__listitem">33 видеоурока</li>
+                  <li class="projectcard__listitem">
+                    Чек-листы, PDF инструкции, Excel таблицы
+                  </li>
+                  <li class="projectcard__listitem">
+                    5 из 1500 проектов на выбор
+                  </li>
+                  <li class="projectcard__listitem">
+                    Индивидуальный проект со скидкой 20%, за 320 рублей за
+                    квадратный метр
+                  </li>
+                  <li class="projectcard__listitem">
+                    Скидки на стройматериалы до 20% в зависимости от региона
+                  </li>
+                  <li class="projectcard__listitem">
+                    Прямая связь с Александром Касумовым (10 консультаций)
+                  </li>
+                </ul>
+                <p class="projectcard__price">150&nbsp;000 &#x20bd;</p>
+              </div>
+            </div>
+            <div class="projectcard">
+              <p class="projectcard__heading">
+                <span>Строю</span> <span>с поддержкой</span>
+              </p>
+              <div class="projectcard__wrapper">
+                <p class="projectcard__subheading">
+                  Пошаговая инструкция по строительству дома с поддержкой
+                  профессиональных строителей компании «Строй и Живи»
+                </p>
+                <ul class="projectcard__list">
+                  <li class="projectcard__listitem">
+                    15 модулей по строительству
+                  </li>
+                  <li class="projectcard__listitem">33 видеоурока</li>
+                  <li class="projectcard__listitem">
+                    Чек-листы, PDF инструкции, Excelтаблицы
+                  </li>
+                  <li class="projectcard__listitem">
+                    3 из 1500 проектов на выбор
+                  </li>
+                  <li class="projectcard__listitem">
+                    Индивидуальный проект со скидкой 15%,за 340 рублей за
+                    квадратный метр
+                  </li>
+                  <li class="projectcard__listitem">
+                    Скидки на стройматериалы до 15% в зависимости от региона
+                  </li>
+                  <li class="projectcard__listitem">
+                    Онлайн чат с прорабом и 3 консультации с Александром
+                    Касумовым
+                  </li>
+                </ul>
+                <p class="projectcard__price">60&nbsp;000 &#x20bd;</p>
+              </div>
+            </div>
+            <div class="projectcard projectcard_unique">
+              <p class="projectcard__heading">Строю сам</p>
+              <div class="projectcard__wrapper">
+                <p class="projectcard__subheading">
+                  Пошаговая инструкция по строительству дома с поддержкой
+                  профессиональных строителей компании «Строй и Живи»
+                </p>
+                <ul class="projectcard__list">
+                  <li class="projectcard__listitem">
+                    15 модулей по строительству
+                  </li>
+                  <li class="projectcard__listitem">33 видеоурока</li>
+                  <li class="projectcard__listitem">33 видеоурока</li>
+                  <li class="projectcard__listitem">
+                    1 из 1500 проектов на выбор
+                  </li>
+                  <li class="projectcard__listitem">
+                    Индивидуальный проект со скидкой 10%, за 360 рублей за
+                    квадратный мет
+                  </li>
+                  <li class="projectcard__listitem">
+                    Скидки на стройматериалы до10% в зависимости от региона
+                  </li>
+                </ul>
+              </div>
+              <div class="projectcard__wrapper" style="margin-top: 89px">
+                <p class="projectcard__price">30&nbsp;000 &#x20bd;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="individual__swiperdisable">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="margin-right: 0">
+                <div class="projectcard">
+                  <p class="projectcard__heading">
+                    <span>Строю</span><span>с поддержкой</span>
+                  </p>
+                  <div class="projectcard__wrapper">
+                    <p class="projectcard__subheading">
+                      Пошаговая инструкция по строительству дома с поддержкой
+                      профессиональных строителей компании «Строй и Живи»
+                    </p>
+                    <ul class="projectcard__list">
+                      <li class="projectcard__listitem">
+                        15 модулей по строительству
+                      </li>
+                      <li class="projectcard__listitem">33 видеоурока</li>
+                      <li class="projectcard__listitem">
+                        Чек-листы, PDF инструкции, Excelтаблицы
+                      </li>
+                      <li class="projectcard__listitem">
+                        3 из 1500 проектов на выбор
+                      </li>
+                      <li class="projectcard__listitem">
+                        Индивидуальный проект со скидкой 15%,за 340 рублей за
+                        квадратный метр
+                      </li>
+                      <li class="projectcard__listitem">
+                        Скидки на стройматериалы до 15% в зависимости от региона
+                      </li>
+                      <li class="projectcard__listitem">
+                        Онлайн чат с прорабом и 3 консультации с Александром
+                        Касумовым
+                      </li>
+                    </ul>
+                    <p class="projectcard__price">60&nbsp;000 &#x20bd;</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="projectcard projectcard_green">
+                  <p class="projectcard__heading">
+                    Строю дом с Александром Касумовым
+                  </p>
+                  <div class="projectcard__wrapper">
+                    <p class="projectcard__subheading">
+                      Пошаговая инструкция по&nbsp;строительству&nbsp;дома
+                      с&nbsp;поддержкой&nbsp;Александра&nbsp;Касумова
+                    </p>
+                    <ul class="projectcard__list">
+                      <li class="projectcard__listitem">
+                        15 модулей по строительству
+                      </li>
+                      <li class="projectcard__listitem">33 видеоурока</li>
+                      <li class="projectcard__listitem">
+                        Чек-листы, PDF инструкции, Excel таблицы
+                      </li>
+                      <li class="projectcard__listitem">
+                        5 из 1500 проектов на выбор
+                      </li>
+                      <li class="projectcard__listitem">
+                        Индивидуальный проект со скидкой 20%, за 320 рублей за
+                        квадратный метр
+                      </li>
+                      <li class="projectcard__listitem">
+                        Скидки на стройматериалы до 20% в зависимости от региона
+                      </li>
+                      <li class="projectcard__listitem">
+                        Прямая связь с Александром Касумовым (10 консультаций)
+                      </li>
+                    </ul>
+                    <p class="projectcard__price">150&nbsp;000 &#x20bd;</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="projectcard projectcard_unique">
+                  <p class="projectcard__heading">Строю сам</p>
+                  <div class="projectcard__wrapper">
+                    <p class="projectcard__subheading">
+                      Пошаговая инструкция по строительству дома с поддержкой
+                      профессиональных строителей компании «Строй и Живи»
+                    </p>
+                    <ul class="projectcard__list">
+                      <li class="projectcard__listitem">
+                        15 модулей по строительству
+                      </li>
+                      <li class="projectcard__listitem">33 видеоурока</li>
+                      <li class="projectcard__listitem">33 видеоурока</li>
+                      <li class="projectcard__listitem">
+                        1 из 1500 проектов на выбор
+                      </li>
+                      <li class="projectcard__listitem">
+                        Индивидуальный проект со скидкой 10%, за 360 рублей за
+                        квадратный мет
+                      </li>
+                      <li class="projectcard__listitem">
+                        Скидки на стройматериалы до10% в зависимости от региона
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="projectcard__wrapper" style="margin-top: 89px">
+                    <p class="projectcard__price">30&nbsp;000 &#x20bd;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <p class="individual__contact">
+            Заявки на покупку курса присылайте на почту
+            <a href="mailto:64649999@mail.ru" class="individual__link"
+              >64649999@mail.ru</a
+            >
+            или обращайтесь напрямую к Александру Касумову
+            <a class="individual__link" href="https://vk.com/stroyizhivi"
+              >Вконтакте</a
+            >
+          </p>
+          <p class="individual__payment">
+            Квитанцию об оплате необходимо отправить на адрес
+            <a href="mailto:64649999@mail.ru" class="individual__link"
+              >64649999@mail.ru</a
+            >
+          </p>
+        </div>
+      </section>
+      <div class="popup" id="popup-form">
+        <div class="popup__container">
+            <button type="button" class="popup__toggle popup__toggle_create-new-card"></button>
+            <form class="form" id="popup-form" novalidate>
+              <p class="form__heading">Зарегистрироваться
+                на вебинар</p>
+              <div class="form__field form__field_name">
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Андрей"
+                  class="form__input"
+                />
+              </div>
+              <div class="form__field form__field_phone">
+               <input
+                  type="tel"
+                  id="tel"
+                  placeholder="+7(000) 000-00-00"
+                  class="form__input"
+                />
+              </div>
+              <div class="form__field form__field_city">
+               <input
+                  type="text"
+                  id="city"
+                  placeholder="Санкт-Петербург"
+                  class="form__input"
+                />
+              </div>
+              <div class="form__field form__field_checkbox">
+                <label for="checkbox" class="form__label form__label_checkbox"
+                  ><span class="form__text form__text_tablet">Вы даёте согласие на</span>
+                  <a href="#" class="form__link form__link_tablet"
+                    >обработку персональных данных</a
+                  > </label
+                ><input
+                  type="checkbox"
+                  id="checkbox"
+                  class="form__input form__input_checkbox"
+                  checked
+                />
+              </div>
+              <div class="form__field">
+                <button type="submit" class="form__button form__button_tablet">
+                  Отправить заявку
+                </button>
+              </div>
+            </form>
+        </div>
+    </div>
+    <div class="popup" id="popup-ok">
+      <div class="popup__container popup__container_ok">
+        <img src="./images/ok.svg" alt="знак успеха" />
+        <span class="popup__text-ok">Ваша заявка
+          успешно&nbsp;отправлена</span>
+          <button type="button" class="button form__button_tablet" id="button-ok">Отлично</button>
+      </div>
+    </div> 
+    </main>
+    <script src="./scripts/popup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 2.0,
+        initialSlide: 1,
+        centeredSlides: true,
+        centeredSlidesBounds: true,
+        spaceBetween: 12,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          900: {
+            slidesPerView: 2,
+          },
+          1050: {
+            slidesPerView: 2.5,
+          },
+          1190: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

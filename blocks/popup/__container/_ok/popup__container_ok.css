@@ -1,0 +1,16 @@
+.popup__container_ok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: none;
+    justify-content: space-between;
+    width: 320px;
+    box-sizing: border-box;
+    padding-right: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .popup__container_ok {
+        width: 230px;
+    }
+}

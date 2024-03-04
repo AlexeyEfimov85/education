@@ -1,0 +1,17 @@
+.form__field_name {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 1190px) {
+    .form__field_name {
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form__field_name {
+        margin-bottom: 4px;
+    }
+}

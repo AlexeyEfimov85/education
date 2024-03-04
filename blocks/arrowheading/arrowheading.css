@@ -1,0 +1,19 @@
+.arrowheading {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 22px auto 56px;
+}
+
+
+@media screen and (max-width: 1190px) {
+    .arrowheading {
+        margin: 32px auto 56px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .arrowheading{
+        margin: 40px auto;
+    }
+}
