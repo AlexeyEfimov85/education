@@ -4,4 +4,11 @@
     line-height: 19px;
     letter-spacing: -0.02em;
     margin: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 1190px) {
+    .individual__payment {
+        text-align: left;
+    }
 }

@@ -4,4 +4,11 @@
     line-height: 19px;
     letter-spacing: -0.02em;
     margin: 40px 0 12px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1190px) {
+    .individual__contact {
+        text-align: left;
+    }
 }
