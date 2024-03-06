@@ -9,16 +9,13 @@
     border: none;
     margin: 0;
     padding: 0;
-    background-image: url("../../../images/Close_Icon.svg");
+    background-image: url("../../../images/close_icon.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     cursor: pointer;
 }
 
-.popup__toggle:hover {
-    background-image: url("../../../images/Close_Icon_hover.svg");
-}
 
 @media screen and (max-width: 768px) {
     .popup__toggle {

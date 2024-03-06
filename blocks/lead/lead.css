@@ -6,6 +6,7 @@
     color: #FFFFFF;
     position: relative;
     padding-bottom: 71px;
+    background-size: cover;
 }
 
 @media screen and (max-width: 1190px) {

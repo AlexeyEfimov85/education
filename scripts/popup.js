@@ -10,7 +10,6 @@ form.addEventListener('submit', function (evt) {
     evt.preventDefault();
   }); 
 
-console.log(toggleButton);
 openPopupButton.addEventListener('click', () => {
     popup.classList.add('popup_opened');
 })
